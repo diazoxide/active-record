@@ -93,5 +93,11 @@
             "common": "config/common.php",
             "tests": ["$common"]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type":"vcs",
+            "url": "https://github.com/diazoxide/db"
+        }
+    ]
 }
